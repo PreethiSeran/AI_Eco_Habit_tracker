@@ -7,8 +7,8 @@ From reducing plastic waste to saving water, EcoHabit makes it simple and fun to
 
 ## 🚀 Live Demo
 
-**URL:** https://lovable.dev/projects/27363015-ee88-4784-86d4-2a00e4d211bb  
-*(Replace this with your custom deployed link when hosting on Vercel, Netlify, etc.)*
+**URL:** (https://ecohabit-ai-tracker-zeta.vercel.app)  
+
 
 ---
 
@@ -40,7 +40,7 @@ From reducing plastic waste to saving water, EcoHabit makes it simple and fun to
 Follow these steps to set up and run the project locally 👇
 
 ### 1️⃣ Clone the Repository
-```bash
+
 git clone <YOUR_GIT_URL>
 
 
@@ -106,8 +106,6 @@ Preethi S
 B.Tech Artificial Intelligence and Data Science
 Passionate about UI/UX design, sustainability, and creating meaningful digital experiences 🌍💫
 
-🪶 License
-This project is open-source and available under the MIT License.
 
 
 ---
