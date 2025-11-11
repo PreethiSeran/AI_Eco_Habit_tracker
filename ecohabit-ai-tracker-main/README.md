@@ -1,113 +1,81 @@
-# 🌱 EcoHabit – Sustainable Living Tracker
+# 🌱 EcoHabit – AI-Powered Eco Habit Tracker
 
-EcoHabit is a web application designed to help users build and maintain eco-friendly habits that contribute to a more sustainable lifestyle.  
-From reducing plastic waste to saving water, EcoHabit makes it simple and fun to track your daily green actions 🌍💚
-
----
-
-## 🚀 Live Demo
-
-**URL:** (https://ecohabit-ai-tracker-zeta.vercel.app)  
-
+A simple AI-based web app to help users build eco-friendly habits and track their sustainability goals.
 
 ---
 
-## 🧩 Features
-
-✅ Add, edit, and delete eco-friendly habits  
-✅ Track daily progress and maintain streaks  
-✅ View your weekly and monthly performance in charts  
-✅ AI-powered motivational messages and eco-tips  
-✅ Calm and nature-inspired design with green tones  
-✅ Responsive layout for all devices  
-
----
-
-## 🛠 Technologies Used
-
-| Technology | Purpose |
-|-------------|----------|
-| **Vite** | Fast development server and build tool |
-| **React.js** | Frontend framework for UI |
-| **TypeScript** | Adds type safety to JavaScript |
-| **Tailwind CSS** | Utility-first CSS for styling |
-| **shadcn-ui** | Modern component library for UI elements |
-
----
-
-## 🧠 Getting Started
+## 🚀 Getting Started
 
 Follow these steps to set up and run the project locally 👇
 
+---
+
 ### 1️⃣ Clone the Repository
-
+```bash
 git clone <YOUR_GIT_URL>
-
-
+```
 2️⃣ Navigate to the Project Folder
+```bash
 cd <YOUR_PROJECT_NAME>
-
+```
 3️⃣ Install Dependencies
+```
 npm install
-
+```
 4️⃣ Start the Development Server
+```
 npm run dev
+```
 
-Once started, open your browser and visit:
-👉 http://localhost:5173
-
-🗂 Folder Structure
+📁 Folder Structure
+```
 EcoHabit/
 │
 ├── src/
-│   ├── components/        # Reusable UI components
-│   ├── pages/             # App pages (Dashboard, Add Habit, etc.)
-│   ├── assets/            # Images, icons, and static files
-│   ├── styles/            # Tailwind and global styles
-│   ├── data/              # Sample or static data
-│   └── main.tsx           # Entry point
+│   ├── components/     # Reusable UI components
+│   ├── pages/          # App pages (Dashboard, Add Habit, etc.)
+│   ├── assets/         # Images, icons, and static files
+│   ├── styles/         # Tailwind and global styles
+│   ├── data/           # Sample or static data
+│   └── main.tsx        # Entry point
 │
-├── public/                # Public assets
+├── public/             # Public assets
 ├── package.json
 ├── vite.config.ts
 └── README.md
-
-
-💚 Example Habits
-Here are some ideas you can track in EcoHabit:
-HabitCategoryDescriptionCarry a reusable water bottleWaste ReductionAvoid buying plastic bottlesTurn off lights when not in useEnergy SavingConserve electricity dailyTake shorter showersWater ConservationSave water by reducing shower timeUse a cloth bag for shoppingWaste ReductionReduce plastic pollutionPlant one sapling each monthPlant CareSupport the environment
-
-
-🪴 Custom Domain (Optional)
-If you have your own domain, connect it through your hosting provider’s domain settings (like Vercel or Netlify).
-Example:
-
-ecohabit.in or ecohabit.vercel.app
-
-
-✨ Future Enhancements
-
-
-Add user authentication
-
-
-Daily reminder notifications
-
-
-Social sharing of achievements
-
-
-Leaderboard for community impact
+```
+🌍 Example Habits
+```
+Habit Category	Description
+Waste Reduction	Carry a reusable water bottle
+Energy Saving	Turn off lights when not in use
+Water Conservation	Take shorter showers
+Waste Reduction	Use a cloth bag for shopping
+Environmental Care	Plant one sapling each month
+```
+🌐 Custom Domain
+If you have your own domain, connect it through your hosting provider’s DNS (like Vercel or Netlify).
 
 
 
-👩‍💻 Author
-Preethi S
-B.Tech Artificial Intelligence and Data Science
-Passionate about UI/UX design, sustainability, and creating meaningful digital experiences 🌍💫
+🧠 Tech Stack
+Frontend: React + TypeScript
+
+Styling: Tailwind CSS
+
+Build Tool: Vite
+
+❤️ Author
+Designed & developed by Preethi S
+3rd-year B.Tech AI & DS student passionate about UI/UX and sustainability.
 
 
 
 ---
+
+
+
+
+
 
 
