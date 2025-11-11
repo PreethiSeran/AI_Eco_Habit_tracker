@@ -65,7 +65,8 @@ Build Tool: Vite
 
 ❤️ Author
 Designed & developed by Preethi S
-3rd-year B.Tech AI & DS student passionate about UI/UX and sustainability.
+
+Final-year B.Tech AI & DS student passionate about UI/UX and sustainability.
 
 
 
