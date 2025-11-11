@@ -1,0 +1,4 @@
+project_id = "xrbewenaastvscnoolwx"
+
+[functions.generate-motivation]
+verify_jwt = false

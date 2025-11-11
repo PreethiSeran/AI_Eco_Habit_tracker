@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Nature-inspired eco theme */
+    --background: 36 33% 97%;
+    --foreground: 153 25% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 153 25% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 153 25% 20%;
+
+    --primary: 142 40% 55%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 36 60% 85%;
+    --secondary-foreground: 153 25% 20%;
+
+    --muted: 36 40% 92%;
+    --muted-foreground: 153 15% 45%;
+
+    --accent: 142 50% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 142 20% 85%;
+    --input: 142 20% 90%;
+    --ring: 142 40% 55%;
+
+    --radius: 0.75rem;
+
+    /* Nature gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(142 40% 55%), hsl(142 50% 45%));
+    --gradient-soft: linear-gradient(180deg, hsl(36 33% 97%), hsl(142 20% 95%));
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 153 20% 12%;
+    --foreground: 142 30% 90%;
+
+    --card: 153 18% 15%;
+    --card-foreground: 142 30% 90%;
+
+    --popover: 153 18% 15%;
+    --popover-foreground: 142 30% 90%;
+
+    --primary: 142 45% 50%;
+    --primary-foreground: 153 20% 12%;
+
+    --secondary: 153 15% 20%;
+    --secondary-foreground: 142 30% 90%;
+
+    --muted: 153 15% 20%;
+    --muted-foreground: 142 20% 65%;
+
+    --accent: 142 50% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 153 15% 25%;
+    --input: 153 15% 25%;
+    --ring: 142 45% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
