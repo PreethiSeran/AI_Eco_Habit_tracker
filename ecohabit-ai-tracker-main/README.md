@@ -26,6 +26,11 @@ npm install
 ```
 npm run dev
 ```
+🌍 Live Demo
+
+🔗 Check out the live deployed site here:
+
+https://ecohabit-ai-tracker-zeta.vercel.app
 
 📁 Folder Structure
 ```
