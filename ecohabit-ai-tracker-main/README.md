@@ -12,11 +12,11 @@ Follow these steps to set up and run the project locally 👇
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone <YOUR_GIT_URL>
+git clone <(https://github.com/PreethiSeran/AI_Eco_Habit_tracker)>
 ```
 2️⃣ Navigate to the Project Folder
 ```bash
-cd <YOUR_PROJECT_NAME>
+cd <AI eco habit tracker>
 ```
 3️⃣ Install Dependencies
 ```
@@ -46,16 +46,14 @@ EcoHabit/
 ```
 🌍 Example Habits
 ```
-Habit Category	Description
-Waste Reduction	Carry a reusable water bottle
-Energy Saving	Turn off lights when not in use
-Water Conservation	Take shorter showers
-Waste Reduction	Use a cloth bag for shopping
-Environmental Care	Plant one sapling each month
+| Habit Category     | Description                     |
+| ------------------ | ------------------------------- |
+| Waste Reduction    | Carry a reusable water bottle   |
+| Energy Saving      | Turn off lights when not in use |
+| Water Conservation | Take shorter showers            |
+| Waste Reduction    | Use a cloth bag for shopping    |
+| Environmental Care | Plant one sapling each month    |
 ```
-🌐 Custom Domain
-If you have your own domain, connect it through your hosting provider’s DNS (like Vercel or Netlify).
-
 
 
 🧠 Tech Stack
